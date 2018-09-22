@@ -18,5 +18,14 @@ test {
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.25'
     testCompile 'junit:junit:4.12'
+	// additional dependencies that solves the java.lang.ClassCastException: org.slf4j.helpers.NOPLoggerFactory cannot be cast to org.gradle.internal.logging.slf4j.OutputEventListenerBackedLoggerContext
+	testCompile files('libs/gradle-logging-4.10.2.jar')
+    testCompile files('libs/gradle-base-services-4.10.2.jar')
+    testCompile files('libs/gradle-cli-4.10.2.jar')
+    testCompile files('libs/gradle-native-4.10.2.jar')
+    testCompile files('libs/gradle-messaging-4.10.2.jar')
+    testCompile files('libs/jul-to-slf4j-1.7.16.jar')
+    testCompile files('libs/native-platform-0.14.jar')
+    testCompile files('libs/kryo-2.20.jar')
 }
 

@@ -1,0 +1,10 @@
+You have to copy the following dependencies from the gradle-4.10.2/lib folder here:
+
+gradle-base-services-4.10.2.jar
+gradle-cli-4.10.2.jar
+gradle-logging-4.10.2.jar
+gradle-messaging-4.10.2.jar
+gradle-native-4.10.2.jar
+jul-to-slf4j-1.7.16.jar
+kryo-2.20.jar
+native-platform-0.14.jar
